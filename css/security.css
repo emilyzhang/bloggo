@@ -1,0 +1,48 @@
+#hbe-security .hbe-input-container {
+  margin: 50px auto;
+  text-align: center;
+}
+#hbe-security .hbe-input-container .bottom-line {
+  background: $color-accent-1;
+}
+#hbe-security .hbe-input-container label {
+  font-size: 0.9rem;
+}
+button.hbe-button {
+  visibility: hidden;
+}
+.hbe-input-field-blink {
+  color: $color-accent-1 !important;
+}
+.hbe-input-field-blink:focus,
+.input--filled .hbe-input-field-blink {
+  border-color: $pale-pink !important;
+}
+.hbe-input-label-content-blink::after {
+  color: $pale-orange !important;
+}
+.hbe-input-blink {
+  padding-top: 1.2em !important;
+}
+.hbe-input-field-wave {
+  color: $pale-blue !important;
+  padding-top: 1.5em !important;
+}
+.hbe-graphic-wave {
+  stroke: $color-accent-1 !important;
+}
+.hbe-input-field-wave:focus + .hbe-input-label-wave,
+.input--filled .hbe-input-label-wave {
+  color: $pale-orange !important;
+}
+.hbe-input-field-wave:focus ~ .hbe-graphic-wave,
+.input--filled .graphic-wave {
+  stroke: $pale-pink !important;
+}
+.hbe-input-label {
+  color: $pale-orange;
+  border-bottom: $pale-blue;
+}
+.hbe-input-label-default::before {
+  background: none !important;
+}
